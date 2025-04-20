@@ -4,7 +4,7 @@
 
 <div class="fullscreen-bg"></div>
 
-<main class="w-screen h-screen flex justify-center items-center">
+<main class="w-screen h-screen flex justify-center items-center px-5">
     <div
         class="max-w-md rounded-section custom-light relative custom-glass overflow-hidden p-10 pb-24 space-y-2 flex flex-col items-center"
     >
