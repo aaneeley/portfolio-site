@@ -51,3 +51,10 @@ p {
     will-change: transform;
     /* Optimization hint for browsers */
 }
+
+@font-face {
+    font-family: 'Lora';
+    /*a name to be used later*/
+    src: url('/LoraVariable.ttf');
+    /*URL to font*/
+}
