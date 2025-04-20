@@ -6,20 +6,42 @@
 
 <main class="w-screen h-screen flex justify-center items-center">
     <div
-        class="max-w-md rounded-section relative custom-glass overflow-hidden p-10 pb-20 space-y-2 flex flex-col items-center"
+        class="max-w-md rounded-section custom-light relative custom-glass overflow-hidden p-10 pb-24 space-y-2 flex flex-col items-center"
     >
-        <div class="avatar mb-6">
+        <div class="avatar mb-6 relative">
+            <span
+                class="badge text-xs text-nowrap rounded-full border-neutral-content font-semibold absolute top-0 left-18"
+                ><div class="inline-grid *:[grid-area:1/1]">
+                    <div class="status status-success animate-ping"></div>
+                    <div class="status status-success"></div>
+                </div>
+                Ready for hire</span
+            >
+
             <div
                 class="ring-white ring-offset-white w-24 rounded-full ring ring-offset-2"
             >
-                <img alt="avatar" src="/avatar1.jpeg" />
+                <img
+                    alt="avatar"
+                    class="select-none pointer-events-none"
+                    src="/avatar1.jpeg"
+                />
             </div>
         </div>
         <h1>Andrew Neeley</h1>
-        <p class="text-center">
+        <p class="text-center opacity-80">
             Full-stack software developer looking to join a team dedicated to
             writing great software and creating incredible experiences.
         </p>
+        <h2 class="mt-2">Built by me:</h2>
+        <button class="glass btn text-white rounded-full"
+            >Portfolio (you are here)</button
+        >
+        <button
+            class="glass btn text-white rounded-full"
+            onclick={() => window.open("https://qn.aneeley.com/", "_blank")}
+            >Quicknote</button
+        >
         <div
             class="absolute bottom-0 flex flex-row space-x-6 justify-center items-center left-0 w-full bg-white h-17"
         >
