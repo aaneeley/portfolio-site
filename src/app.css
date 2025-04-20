@@ -41,6 +41,13 @@ p {
     background: rgba(0, 0, 0, 0.13);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
+    -moz-backdrop-filter: blur(5px);
+    -o-backdrop-filter: blur(5px);
+    -ms-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    transform: translateZ(0);
+    /* Creates a new stacking context */
+    will-change: transform;
+    /* Optimization hint for browsers */
 }
