@@ -38,10 +38,25 @@
             >Portfolio (you are here)</button
         >
         <button
-            class="glass btn text-white rounded-full"
-            onclick={() => window.open("https://qn.aneeley.com/", "_blank")}
-            >Quicknote</button
+            class="glass btn text-white rounded-lg h-auto flex flex-col py-2 px-4 hover:opacity-60 transition-all"
+            onclick={() =>
+                window.open("https://github.com/aaneeley/perry", "_blank")}
         >
+            <span class="text-lg"> Perry </span>
+            <p class="text-sm font-light">
+                A programming language & interpreter<br />from scratch written
+                in Rust
+            </p>
+        </button>
+        <button
+            class="glass btn text-white rounded-lg h-auto flex flex-col py-2 px-4 hover:opacity-60 transition-all"
+            onclick={() => window.open("https://qn.aneeley.com/", "_blank")}
+        >
+            <span class="text-lg"> Quicknote </span>
+            <p class="text-sm font-light">
+                A cryptographically secure<br />pastebin-like web app
+            </p>
+        </button>
         <div
             class="absolute bottom-0 flex flex-row space-x-6 justify-center items-center left-0 w-full bg-white h-17"
         >
