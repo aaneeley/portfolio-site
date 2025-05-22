@@ -24,7 +24,7 @@
                 <img
                     alt="avatar"
                     class="select-none pointer-events-none"
-                    src="/avatar1.jpeg"
+                    src="https://avatars.githubusercontent.com/u/41931259?v=4&size=200"
                 />
             </div>
         </div>
