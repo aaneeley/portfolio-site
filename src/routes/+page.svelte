@@ -30,13 +30,13 @@
         </div>
         <h1>Andrew Neeley</h1>
         <p class="text-center opacity-80">
-            Full-stack software developer looking to join a team dedicated to
-            writing great software and creating incredible experiences.
+            IT expert and software developer looking to join a team dedicated to
+            pushing the boundaries of technology.
         </p>
         <h2 class="mt-2">Built by me:</h2>
-        <button class="glass btn text-white rounded-full"
-            >Portfolio (you are here)</button
-        >
+        <!-- <button class="glass btn text-white rounded-full" -->
+        <!--     >Portfolio (you are here)</button -->
+        <!-- > -->
         <button
             class="glass btn text-white rounded-lg h-auto flex flex-col py-2 px-4 hover:opacity-60 transition-all"
             onclick={() =>
